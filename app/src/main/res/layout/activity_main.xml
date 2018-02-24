@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.roy.animesh.androidswitchicon.MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/btn1"
+        android:orientation="vertical"
+        android:layout_width="80dp"
+        android:gravity="center"
+        android:background="?selectableItemBackgroundBorderless"
+        android:layout_height="80dp">
+
+
+        <com.github.zagum.switchicon.SwitchIconView
+            android:id="@+id/switchIconView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            app:si_animation_duration="500"
+            app:si_disabled_alpha=".5"
+            app:si_disabled_color="#b7b7b7"
+            app:si_enabled="false"
+            app:si_no_dash="true"
+            app:si_tint_color="#008000"
+            app:srcCompat="@drawable/ic_android" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "Android"/>
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/btn2"
+        android:orientation="vertical"
+        android:layout_width="80dp"
+        android:gravity="center"
+        android:background="?selectableItemBackgroundBorderless"
+        android:layout_height="80dp">
+
+
+        <com.github.zagum.switchicon.SwitchIconView
+            android:id="@+id/switchIconView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            app:si_animation_duration="500"
+            app:si_disabled_alpha=".5"
+            app:si_disabled_color="#b7b7b7"
+            app:si_enabled="false"
+            app:si_no_dash="true"
+            app:si_tint_color="#303F9F"
+            app:srcCompat="@drawable/ic_share_black_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "Share Icon"/>
+
+
+
+    </LinearLayout>
+
+<!--Thats it guys thank you so much for watching the video. I will catch you in next video-->
+
+</LinearLayout>
